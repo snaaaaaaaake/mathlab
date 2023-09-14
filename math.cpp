@@ -2,23 +2,21 @@
 #include <cmath>
 #include <iostream>
 
-using std::cout, std::endl;
-
 double mathlab::sin(double x)
 {
-  cout << "user-def sin" << endl;
+  std::cout << "user-def sin" << std::endl;
   return std::sin(x);
 }
 
 double mathlab::cos(double x)
 {
-  cout << "user-def cos" << endl;
+  std::cout << "user-def cos" << std::endl;
   return std::cos(x);
 }
 
 double mathlab::sqrt(double x)
 {
-  cout << "user-def sqrt" << endl;
+  std::cout << "user-def sqrt" << std::endl;
   return std::sqrt(x);
 }
 
